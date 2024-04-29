@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura no Nihon</title>
+    <link rel="icon" href="Resource/icon.png" type="image/gif" sizes="16x16">
+    <link href="/style.css" rel="stylesheet">
+    <link href="/job.css" rel="stylesheet">
+  
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+     <!--<embed src="/Resource/Sakuya_BG.mp3" controls autoplay loop="true"  width="2" height="0"  >-->
+  </head>
+  <body>
+    <header >
+      <div class="web-header-toolbar"> 
+        <select class="tool" name="language">
+          <option value="ja">日本語</option>
+          <option value="en">English</option>
+        </select>
+        <a class="tool" href="/login.html">Login</a>
+        <a class="tool" href="/register">Register</a>
+      </div>
+      <div class="web-header">
+        <div class="web-header-bar">
+          <div class="web-header-icon-title">
+            <img  class='web-header-img'src="/Resource/web-icon.png" alt="Sakura no Nihon"> 
+            <h1 class="web-header-title">Japan of Cherry Blossom</h1>
+          </div> 
+          <div class="web-header-nav">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/job.html">job-search</a></li>
+              <li><a href="/japan_verse.html">Japan-verse</a></li>
+              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="/about_us.html">About Us</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="job-search-container" id="job-search" role="search">
+      <div class="sidebar">
+        <div class="searchbar">
+          <input type="text" id="searchInput-tag" placeholder="Search by Job Tags">
+          <input type="text" id="searchInput-title" placeholder="Search by Job Title">
+          <input type="text" id="searchInput-company" placeholder="Search by Company">
+        </div>
+        <div class="slider-container">
+          <label for="salary-slider">Salary:</label> <span id="salary-value">   0</span> 
+          <input type="range" id="salary-slider" min="0" max="20" value="5">
+          
+        </div>
+        <div class="slider-container">
+          <label for="openings-slider">Openings:</label><span id="openings-value">   0</span>
+          <input type="range" id="openings-slider" min="0" max="10" value="2">
+          
+        </div>
+     </div>
+    
+      <div id="jobCardsContainer"></div>
+    </div>
+    <script defer src="job.js"></script>
+    </body>
+</html>

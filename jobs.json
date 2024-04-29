@@ -1,0 +1,125 @@
+[
+    {
+        "image": "https://shorturl.at/jyPUY",
+        "title": "Software Builder Engineer",
+        "company": "L&T Technology Services Limited",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "Be the first point of contact for candidates.<br> Should post the requirements across Job Portals both in Japanese and English.<br>Assist to build a quality-based candidate database of high quality candidates as assembled from various databases and sources online and in person<br> Gather appropriate information from potential hires, and appropriately seek and source suitable candidates.<br>Conduct initial email and phone screening, arrange for interviews.<br> Develop and maintain solid working relationships with candidates",
+        "openings": 2,
+        "location": "Tokyo",
+        "ctc": 4
+      },
+      { 
+        "image": "https://rb.gy/dz2yba",
+        "title": "Reception desk",
+        "company": "ALACOM CO, LTD.",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "Access control using metal detectors The job is similar to checking baggage at an airport security checkpoint. Those entering and exiting the data center server room will have their belongings searched using metal detectors<br>Through encounters with special people, you can become the face of a famous company that represents the world.<br>Emergency reporting and initial response (English available) As we are a foreign-affiliated data center, we have contracts with overseas customers. When an incident occurs, please report to the customer in English",
+        "openings": 2,
+        "location": "Meguro Office/Shinagawa Seaside",
+        "ctc": 6
+      },
+      {
+        "image": "https://shorturl.at/hM127",
+        "title": "CONTRACT - Engineering Technician (NTD)",
+        "company": "Nintendo.",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "Supports engineers with setup tasks for development and manufacturing, such as PCB modification, cable assemblies, kitting, prototype repairs, and test assemblies.<br>Participates in schematic checks and design reviews for PCB board prototypes<br>This position is onsite in Redmond, WA, and not open to remote status at this time.<br>Design, construction, and operation of data infrastructure for analytical services for institutional investors<br>API development and data mart development for web applications for investment analysis<br>Development and operation of macro indexes using big data",
+        "openings": 1,
+        "location": "Kanto",
+        "ctc": 14
+      },
+      {
+        "image": "https://sdn.signalhire.co/storage/company/5363/08e4/1374/0fd6/a051/b52f/e666/cf90.webp",
+        "title": "Data Engineer ",
+        "company": "Bizmates, Inc.",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "You will be responsible for a full range of tasks related to big data service operations, including data collection, analytical infrastructure construction, cleansing, enrichment, and customer provision.<br> Depending on other projects you are assigned to, you may also be involved in API development, building BI environments, reporting for customers, and more.",
+        "openings": 2,
+        "location": "Tokyo",
+        "ctc": 4
+      },
+      {
+        "image": "https://rb.gy/70d4p6",
+        "title": "Senior Software Engineer",
+        "company": "G Talent",
+        "tags": ["android Developer", "Front End Developer", "Backend Developer"],
+        "description": "The company currently provides over 50 services spanning across B2C, B2B and it continues to grow by launching new services aimed at solving financial challenges for everyone.<br>The ID platform is indispensable for the company's over ten million users to use these services safely and conveniently.<br>Through the development of the ID platform, the team mission is:<br>Elevate product and business value through our innovative authentication infrastructure<br>Provide the pinnacle of authentication experience while ensuring supreme account security for all users<br>Persistently pursue technological advancement by actively exploring and integrating advanced ID technologies and standards",
+        "openings": 2,
+        "location": "Tokyo",
+        "ctc": 4
+      },
+      {
+        "image": "https://img.naukimg.com/logo_images/groups/v1/308172.gif",
+        "title": "Application Engineer",
+        "company": "Kelly Services",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "More than 5 years of programming experience (Java, Javascript, Go, Python, etc.)<br>Over 5 years of experience from requirement definition, basic system design, detailed design, testing<br>Over 5 years of system operation experience<br>years and above work period in 1 company<br>Reference Information (Excerpts of our using technical elements)<br>Programming language: Java, JavaScript, Go, Swift, Kotlin<br>Cloud infrastructure: AWS, GCP, Docker (All container-based)<br>Database: PostgreSQL, Oracle, SAP<br>Cache : Redis<br>Development tool related: GitHub, Slack, JIRA, Terraform, Jenkins<br>Operation monitoring related: Datadog, Grafana",
+        "openings": 2,
+        "location": "Tokyo",
+        "ctc": 4
+      },
+      {
+        "image": "https://shorturl.at/nCGZ5",
+        "title": "Data Engineer ",
+        "company": "JELLYFISH, INC",
+        "tags": ["Full Stack Developer", "web Developer", "Backend Developer"],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+        "openings": 1,
+        "location": "Tokyo, Chiyoda",
+        "ctc": "5~9"
+      },
+      {
+        "image": "https://shorturl.at/euwHO",
+        "title": "IT (Hardware/Network) - Network Engineer",
+        "company": "GDI Communications Inc.",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "Vulnerability diagnosis of customer environment<br>Security product introduction - construction, operation and maintenance<br>nvestigation support/early resolution/reporting when security incidents occur<br>SOC, CSIRT construction support<br>IT security architecture design support<br>Support for selecting various IT security tools, etc.<br>(Scope of change) Operations specified by the company",
+        "openings": 2,
+        "location": " Fukuoka",
+        "ctc": 4
+      },
+      {
+        "image": "https://shorturl.at/euwHO",
+        "title": "IT (PC, Web, Unix) - Web Application SE",
+        "company": "GDI Communications Inc.",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "・Construction, design, operation and maintenance as an infrastructure engineer<br>Any experience (*Regardless of years of experience)<br>Construction, design, and development as a development engineer<br>Any experience (*Regardless of years of experience)<br>Knowledge and practical experience related to infrastructure such as server construction and networks<br>In-house IT infrastructure design and construction experience<br>SalesForce development/operation maintenance<br>Development, operation and maintenance in Ruby",
+        "openings": 2,
+        "location": " Fukuoka",
+        "ctc": 8
+      },
+      {
+        "image": "https://i.pinimg.com/736x/99/c8/bf/99c8bfb9ea895a9ac50943e63ad2d9f8.jpg",
+        "title": "development engineer",
+        "company": "TopTech Informatics K.K",
+        "tags": ["Full Stack Developer", "Front End Developer", "android Developer"],
+        "description": "You will be engaged in system development to revitalize your business. In the future, you will aim to become a project manager for solving IT issues and a manager for large-scale projects worth several hundred million yen to help our customers further expand their business.<br>The company's strength is that its engineers with a proven track record of development propose and provide services aimed at solving customers' problems.<br>After joining the company, you will first acquire knowledge of the industry and industry through 'design and development' in various prime projects from major companies, and hone your proposal skills.<br>After that, you will be asked to perform a wide range of tasks such as requirement definition and business improvement proposals.<br> You will be involved in the work. <br>After acquiring consistent skills, you will be asked to take on the challenge of being responsible for prime projects and managing large-scale projects.",
+        "openings": 1,
+        "location": "Tokyo",
+        "ctc": "4~10"
+      },
+      {
+        "image": "https://www.daijob.com/images/uploads/8817/ba8314-549b-e6a83.jpg",
+        "title": "IT interpreter",
+        "company": "Gowell Co., Ltd.",
+        "tags": ["Full Stack Developer", "Front End Developer", "Backend Developer"],
+        "description": "Involved in the introduction and deployment of supply chain systems to Thailand in line with the global IT expansion of the retail industry<br>Japanese to Thai translation of system Q&A<br>Work-related interactions with Thai staff<br>Conference interpretation<br>Document creation, etc.",
+        "openings": 2,
+        "location": "Tokyo",
+        "ctc": 4.5
+      },
+      {
+        "image": "https://i.pinimg.com/736x/99/c8/bf/99c8bfb9ea895a9ac50943e63ad2d9f8.jpg",
+        "title": "Software (Consignment Development)",
+        "company": "Persol Temp Staff Co., Ltd.",
+        "tags": ["react", "android End Developer", "Backend Developer"],
+        "description": "Business details<br>Use your English skills ↑↑》English teaching materials check & administrative support<br>Manuscript check of English teaching materials (elementary school to high school level) *English proficiency required<br>Confirm published data<br>Other related duties in general<br>Attractive points<br>Work related to teaching material production at a software development company famous for TV commercials★<br>English teaching material production assistant for middle school to high school students ◎<br>Good income with reasonable overtime<br>This is a must-see job for those with experience as an English teacher or creating English teaching materials ↑↑",
+        "openings": 10,
+        "location": "Tokyo",
+        "ctc": 3.3
+      }
+
+
+  ]
+  
