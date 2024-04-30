@@ -44,9 +44,13 @@ function createJobCard(job) {
       <p class="job-title">${job.title}</p>
       <p class="job-company">${job.company}</p>
       <p class="job-description">${job.description}</p>
+      <div class="job-info">
+      <div class="job-details">
       <span class="job-openings">${job.openings} Openings</span>
       <span class="job-ctc">${job.ctc} Million Yen</span>
-      <span class="job-location">${job.location}</span>
+      <span class="job-location">${job.location}</span></div>
+      <button class="job-button">Apply Now</button>
+      </div>
     </div>
   `;
   return jobCard;

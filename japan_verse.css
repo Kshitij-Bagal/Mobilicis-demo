@@ -10,31 +10,34 @@ position: relative;
   
   .interesting-facts label {
     text-align: center;
-    font-size: calc(2vw + 2px);
-    margin-bottom: 20px;
+
   }
   .fact-body:hover p {
-    font-size: calc(2vw + 1.9px);    
     transition: 1s, translate 0s .3s;
     color: #ff0000;
   }
   
   .fact-body:not(:hover) p {
-    font-size: calc(2vw + 1.9px);    
+
     transition: 1s, translate 0s .3s;
     color: #ff90f6;
     filter: opacity(0.2);
   }
   
   .fact-body:hover img {
-    width: 25vi;
+    width: 25vw;
     filter: grayscale(0%);
+    vertical-align: middle;
     transition: 1s, translate 0s .3s;
+    margin-top: 20px;
+    
   }
   
   .fact-body:not(:hover) img {
-    width: 25vi;
+    margin-top: 20px;
+    width: 25vw;
     filter: grayscale(100%);
+    vertical-align: middle;
     filter: opacity(0.2);
     transition: 1s, translate 0s .3s;
   }
@@ -78,6 +81,20 @@ position: relative;
     width: 50%;
     left: 25%;
   }
+  .fact-body:not(:hover) img {
+    height: 15vw;
+    width: 15vw;
+  }  
+  .fact-body:hover img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .interesting-facts label {
+    font-size: calc(2vw + 1.8px);
+  }
+  .fact-body p{
+    font-size: calc(2vw + 1.5px);   
+  }
 }
  
 /* For Tablet View */
@@ -87,11 +104,41 @@ position: relative;
     width: 75%;
     left: 12.5%;
   }
+  .fact-body:not(:hover) img {
+    width: 25vw;
+    height: 25vw;
+  }  
+  .fact-body:hover img {
+    width: 25vw;
+    height: 25vw;
+  }
+  .interesting-facts label {
+    font-size: calc(2vw + 1.8px);
+  }
+  .fact-body p{
+    font-size: calc(2vw + 1.3px);   
+  }
 }
  
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 640px) {
   .interesting-facts {
     width: 100%;
+  }
+  .fact-body:not(:hover) img {
+    width: 35vw;
+    height: 35vw;
+
+  }  
+  .fact-body:hover img {
+    width: 35vw;
+    height: 35vw;
+
+  }
+  .interesting-facts label {
+    font-size: calc(2vw + 2px);
+  }
+  .fact-body p{
+    font-size: calc(1vw + 2px);   
   }
 }

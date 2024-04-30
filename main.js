@@ -27,6 +27,26 @@ openLogin.addEventListener('click', () => {
 });
 
 
+function toggleLanguage() {
+  const languageSelect = document.getElementById('languageSelect');
+  const selectedLanguage = languageSelect.value;
+
+  if (selectedLanguage === 'en') {
+    document.getElementById('englishVersion').style.display = 'block';
+    document.getElementById('japaneseVersion').style.display = 'none';
+  } else if (selectedLanguage === 'ja') {
+    document.getElementById('englishVersion').style.display = 'none';
+    document.getElementById('japaneseVersion').style.display = 'block';
+  }
+}
+
+// Event listener for language select change
+document.getElementById('languageSelect').addEventListener('change', toggleLanguage);
+
+// Initial toggle to display the default language
+toggleLanguage();
+
+
 
 
 

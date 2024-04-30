@@ -39,6 +39,9 @@ main{
     justify-content:start;
     padding: 1rem;
 }
+.web-header-title{
+    font-size: calc(3vw + 1px);
+}
 .web-header img:not(:hover){
     width: 10vw;
     height: 10vw;
@@ -88,20 +91,23 @@ main{
   
   .tool {
     margin-left: 1rem;
+    font-size: calc(1vw + 5px);
+
   }
   .web-header-nav ul{
     padding: 20px;
 
   }
-  .web-header-nav ul li{
+  .web-header-nav ul li {
     display: inline-block;
-    padding: 8px 15px;
+    padding: 8px 10px;
     background: #f7e5f500;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 5px;
     list-style: none;
     text-align: center;
-    transition: all 0.3s ease 0s;  
+    transition: all 0.3s ease 0s;
+    font-size: calc(1vw + 3px);
   }
 
   ul {
@@ -322,4 +328,15 @@ border: 5px solid #b671d6;
 .blog-post:hover.blog-post a{
   opacity: 1;
 }
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 640px) {
 
+}
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+}
+/* For Desktop View */
+@media screen and (min-width: 1024px){
+  
+}

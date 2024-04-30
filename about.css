@@ -1,0 +1,102 @@
+.img-div {
+    position: relative;
+    width: 25vw; /* Adjust width as needed */
+  }
+  .about-imgs{
+    display: flex;
+    width: 100%;
+    place-items: center;
+    gap: 5vw;
+    height:auto;
+  }
+  .about-img1,
+  .about-img2,
+  .about-img3,
+  .about-img4{
+    width:25vw;
+    display: block;
+    max-width: 100%;
+    filter: drop-shadow(10px gray);
+    filter: grayscale(100);
+  }
+  
+  .img-before1,
+  .img-before2,
+  .img-before3,
+  .img-before4   {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5)); /* Adjust shadow properties */
+    transition: 0.5s transform 0.2s ease; /* Transition for tilt effect */
+    transform: rotate(0deg); /* Initial tilt */
+    pointer-events: none; /* Allows mouse events to pass through the shadow */
+  }
+  
+  .img-before1{
+    background-image: url("Resource/about1.png"); /* Image for the shadow */
+  }
+  .img-before2{
+    background-image: url("Resource/about2.png"); /* Image for the shadow */
+  }
+  .img-before3{
+    background-image: url("Resource/about3.png"); /* Image for the shadow */
+  }
+  .img-before4{
+    background-image: url("Resource/about4.png"); /* Image for the shadow */
+  }
+  
+  .img-div:hover .img-before1 {
+    transform: rotate(20deg) translateY(5px); 
+  }
+  .img-div:hover .img-before2 {
+    transform: rotate(20deg) translateY(5px); /* Tilt and slight downward shift on hover */
+  }
+  .img-div:hover .img-before3 {
+    transform: rotate(20deg) translateY(5px); /* Tilt and slight downward shift on hover */
+  }
+  .img-div:hover .img-before4 {
+    transform: rotate(20deg) translateY(5px); /* Tilt and slight downward shift on hover */
+  }
+  
+  .about-img1:hover,
+  .about-img2:hover,
+  .about-img3:hover,
+  .about-img4:hover{
+    filter: grayscale(0);
+  }  
+  .about-img1:not(:hover),
+  .about-img2:not(:hover),
+  .about-img3:not(:hover),
+  .about-img4:not(:hover){
+    filter: opacity(0);
+  }
+  .about-context{
+    font-style: oblique;
+    font-weight: 200;
+  }
+  @media screen and (min-width: 1024px) {
+    .about-context{
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .about-context{
+        width: 75%;
+        margin-left: 12.5%;
+    }  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 640px) {
+    .about-context{
+        width: 90%;
+        margin-left: 5%;
+
+    }
+  }

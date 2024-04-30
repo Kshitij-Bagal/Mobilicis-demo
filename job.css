@@ -1,6 +1,6 @@
 
 .job-search-container {
-  display: flex;
+  display: block;
   height: auto;
   background-image: url(https://i.pinimg.com/736x/99/c8/bf/99c8bfb9ea895a9ac50943e63ad2d9f8.jpg);
   background-repeat: no-repeat;
@@ -10,6 +10,7 @@
 
 
 #jobCardsContainer {
+  margin-top: 50px;
   align-items:center ;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -30,6 +31,7 @@
     perspective: 1000px;
     box-shadow: 0 0 0 5px #ffffff80;  
     margin-left:5% ;
+    margin-right:5% ;
     transition: all 01s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
@@ -109,6 +111,10 @@ margin-left: 2vw;
     font-size: 10px;
 
   }
+.job-info{
+  display: flex;
+  flex-direction: column;
+}
   .job:hover img{
     scale: 0;
   }
@@ -122,33 +128,41 @@ margin-left: 2vw;
     margin-right: 10px;
     font-size: 10px;
   }
+  .job-button{
+    width: 45%;
+  }
 
   .details-icon{
     width: 3vw;
   }
   .sidebar {
-    margin: 0;
+    position:sticky;
+    top: 0px;
     padding: 0;
     width: 20vw;
-    background-color: #f1f1f1;
-    position: relative;
+    background-color: #ffd3fd;
     height: 100%;
     overflow: auto;
     font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+
   }
-  .searchbar input{
+  input{
     margin: 5px;
-    width: 17vw;
+    font-size: calc(1vw + 5px);
+    width: 150px;
   }
   .slider-container{
     margin: 5px;
   }
 
 .searchbar input::placeholder{
-  font-size: 10px;
+  font-size: calc(1vw + 5px);
 
 }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 650px) {
     .sidebar {
       width: 100%;
       height: auto;
@@ -157,10 +171,21 @@ margin-left: 2vw;
     .job-description {
       font-size: calc(1vw + 1px);
     }
+    .job-Titlescreen{
+      flex-direction: column;
+    }
+
   
   }
-  @media screen and (min-width: 701px) {
+  @media screen and (min-width: 700px) {
 
+    .sidebar{
+      width: 100%;
+      flex-direction: row;
+    }
+    .searchbar{
+      flex-direction: row;
+    }
   .job-description {
     font-size: calc(1vw + 1px);
   }
